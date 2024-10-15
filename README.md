@@ -1,27 +1,16 @@
-# AwsJson
+# Json Upload
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.10.
+This project provides a simple web application to upload and retrieve JSON data to/from an AWS S3 bucket. The application consists of a front-end built with Angular and a back-end powered by Express.js.
 
-## Development server
+Features
+Upload JSON data (name and age) to AWS S3.
+Retrieve stored JSON data from AWS S3.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Set up AWS credentials
+Add the credentials to the env file to run.
 
-## Code scaffolding
+AWS_ACCESS_KEY_ID=your-access-key-id
+AWS_SECRET_ACCESS_KEY=your-secret-access-key
+AWS_BUCKET_NAME=your-bucket-name
+AWS_REGION=your-region
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
